@@ -1,0 +1,74 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.btn{
+    background-color: aqua;
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.row{
+    grid-row-start:4;
+}
+
+.column{
+    grid-column-start:4;
+}
+
+.row{
+    margin: 16px;
+    display: flex;
+    height: 40px;
+}
+
+.nav{
+    display: flex;
+    background-color: rgba(27, 35, 35, 0.902);
+    color: beige;
+    height: 45px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.nav-links{
+    display:flex;
+    flex:1;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+
+}
+
+.nav-title{
+    flex:1;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: rgb(31, 176, 176);
+    color: azure;
+    height: 30px;
+    box-shadow: 4px 4px black;
+    
+}
